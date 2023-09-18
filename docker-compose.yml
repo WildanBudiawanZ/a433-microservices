@@ -8,8 +8,8 @@ services:
     # agar bisa run di apple m1
     platform: linux/amd64
 
-    # image yang dibuild dari dockerfile
-    image: item-app:v1
+    # image yang dibuild dari dockerfile yang sudah di push ke docker hub
+    image: wildanbudiawanz/item-app:v1
 
     # restart policy selalu restart ketika berhenti
     restart: always

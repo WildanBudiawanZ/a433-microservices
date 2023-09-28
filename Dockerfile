@@ -1,4 +1,4 @@
-FROM node:14.21-alpine as builder
+FROM --platform=linux/amd64 node:14.21-alpine as builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
